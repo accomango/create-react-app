@@ -1,15 +1,15 @@
 {
-  "name": "react-dev-utils",
-  "version": "11.0.3",
-  "description": "webpack utilities used by Create React App",
+  "name": "accomango-react-dev-utils",
+  "version": "11.0.5",
+  "description": "Accomango - webpack utilities used by Create React App",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/accomango/create-react-app.git",
     "directory": "packages/react-dev-utils"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/accomango/create-react-app/issues"
   },
   "engines": {
     "node": ">=10"

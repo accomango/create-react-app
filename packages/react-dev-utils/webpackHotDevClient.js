@@ -59,7 +59,8 @@ if (module.hot && typeof module.hot.dispose === 'function') {
 // Connect to WebpackDevServer via a socket.
 var connection = new WebSocket(
   url.format({
-    protocol: window.location.protocol === 'https:' ? 'wss' : 'ws',
+    // ACMNG-06
+    protocol: process.env.WDS_SOCKET_PROTOCOL || (window.location.protocol === 'https:' ? 'wss' : 'ws'),
     hostname: process.env.WDS_SOCKET_HOST || window.location.hostname,
     port: process.env.WDS_SOCKET_PORT || window.location.port,
     // Hardcoded in WebpackDevServer
