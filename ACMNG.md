@@ -48,3 +48,9 @@ Updated reference in `accomango-react-scripts`, so it uses new `accomango-react-
 
 Installed `graphql-tag` package.
 Added loader into `webpack.config.js`.
+
+
+## ACMNG-08
+## Changed location path of proxy config
+
+In `pahts.js`, replaced `src/setupProxy.js` for `proxy.config.js`
