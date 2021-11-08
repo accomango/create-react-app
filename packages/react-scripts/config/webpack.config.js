@@ -350,6 +350,7 @@ module.exports = function (webpackEnv) {
 				'@catalog': path.resolve(process.cwd(), 'src/modules/catalog/'),
 				'@employees': path.resolve(process.cwd(), 'src/modules/employees/'),
 				'@invoices': path.resolve(process.cwd(), 'src/modules/invoices/'),
+				'@website': path.resolve(process.cwd(), 'src/modules/website/'),
 				'@supply-side-app': path.resolve(process.cwd(), 'src/supply-side-app/'),
 
         // Allows for better profiling with ReactDevTools
